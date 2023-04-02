@@ -1,5 +1,5 @@
 import "./App.css";
-import CountdownTimer from "./components/CountdownTimer";
+import GameRules from "./components/GameRules";
 import React, { useState, useEffect } from "react";
 import ImageGenerator from "./components/imageGenerator";
 import GuessForm from "./components/GuessForm";
@@ -37,9 +37,6 @@ const Game = () => {
   return (
     <GameContext.Provider value={{ slug, setSlug }}>
       <div>
-        <CountdownTimer />
-      </div>
-      <div>
         <DifficultySelector onSelectDifficulty={handleSelectDifficulty} />
       </div>
       <div>
@@ -64,6 +61,9 @@ const Game = () => {
       ></div>
             <div>
       <HintButton slug={slug} />
+      </div>
+      <div>
+        <GameRules />
       </div>
     </GameContext.Provider>
   );
