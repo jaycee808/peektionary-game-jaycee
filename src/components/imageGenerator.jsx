@@ -35,9 +35,10 @@ function ImageGenerator(props) {
         className="app-main text-2xl border-2 border-solid border-zinc-900 flex justify-around p-px bg-gray-300"
       >
         <img
+          id="background-image"
           className="object-fill aspect-auto"
           src={result}
-          alt="result"
+          alt=""
           data-prompt={props.prompt}
         />
       </div>
