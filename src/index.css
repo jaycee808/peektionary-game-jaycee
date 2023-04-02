@@ -36,6 +36,7 @@ code {
 #game-rules {
   width: 30rem;
   height: 20rem;
+  position: absolute;
   z-index: 2;
   align-items: center;
   left: 0; 
@@ -44,8 +45,16 @@ code {
   margin-right: auto;
 }
 
-#background-image {
-  background-image: url('./images/question-image.svg');
+#back-box-four {
+  width: 30rem;
+  height: 20rem;
+  position: relative;
+  top: 8px;
+  left: 8px;
+  right: 0; 
+  z-index: 0;
+  margin-left: auto; 
+  margin-right: auto; 
 }
 
 #select-level {
@@ -190,6 +199,11 @@ code {
   #back-box-three {
     width: 25rem;
     height: 2.5rem;
+  }
+
+  #game-rules {
+    width: 25rem;
+    height: 18rem;
   }
 }
 
