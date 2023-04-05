@@ -10,10 +10,8 @@ body {
   font-family: 'Space Grotesk', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url("./images/bg-one.svg");
-  background-size: cover;
-  background-position: center center;
-  background-attachment: fixed;
+  background: rgb(45,212,191);
+  background: linear-gradient(90deg, rgba(45,212,191,1) 29%, rgba(147,197,253,1) 90%);
 }
 
 code {
@@ -22,15 +20,14 @@ code {
 }
 
 #header {
-  margin-top: 2rem;
   margin-bottom: 4rem;
   font-size: 4em;
-  width: 30rem;
-  height: 2rem;
-  left: 0; 
-  right: 0; 
+  height: 3rem;
   margin-left: auto; 
   margin-right: auto;
+  text-align: center;
+  color: #000;
+  text-shadow: 3px 3px 0px #e7eef1, 8px 8px 0px rgba(0, 0, 0, 0.1);
 }
 
 #game-rules {

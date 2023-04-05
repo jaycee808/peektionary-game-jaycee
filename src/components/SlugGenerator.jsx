@@ -17,7 +17,7 @@ function SlugGenerator(difficulty) {
       partsOfSpeech: ["adjective", "noun"],
       categories: {
         adjective: ["color"],
-        noun: ["animals", "food", "transportation"],
+        noun: ["animals", "food"],
       },
     });
   } else {
@@ -25,8 +25,8 @@ function SlugGenerator(difficulty) {
       format: "title",
       partsOfSpeech: ["adjective", "adjective", "noun"],
       categories: {
-        adjective: ["color", "shape", "personality"],
-        noun: ["animals", "food", "transportation", "people"],
+        adjective: ["color", "shape"],
+        noun: ["animals", "food", "profession"],
       },
     });
   }
