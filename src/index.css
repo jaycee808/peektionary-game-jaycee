@@ -32,7 +32,7 @@ code {
 
 #game-rules {
   width: 30rem;
-  height: 20rem;
+  height: 14rem;
   position: absolute;
   z-index: 2;
   align-items: center;
@@ -44,7 +44,7 @@ code {
 
 #back-box-four {
   width: 30rem;
-  height: 20rem;
+  height: 14rem;
   position: relative;
   top: 8px;
   left: 8px;
@@ -187,7 +187,8 @@ code {
   }
   
   #image-container,
-  #back-box-two {
+  #back-box-two,
+  #back-box-four {
     width: 25rem;
     height: 18rem;
   }
@@ -221,7 +222,8 @@ code {
   }
   
   #image-container,
-  #back-box-two {
+  #back-box-two,
+  #back-box-four {
     width: 22rem;
     height: 18rem;
   }
@@ -230,5 +232,10 @@ code {
   #back-box-three {
     width: 22rem;
     height: 2.5rem;
+  }
+
+  #game-rules {
+    width: 22rem;
+    height: 18rem;
   }
 }

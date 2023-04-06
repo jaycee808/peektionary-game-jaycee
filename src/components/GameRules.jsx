@@ -3,7 +3,7 @@ import React from 'react';
 function GameRules() {
     return (
         <div>
-        <div id="game-rules" className="text-lg border-2 border-solid border-zinc-900 bg-gray-300">
+        <div id="game-rules" className="text-base border-2 border-solid border-zinc-900 bg-gray-300">
             <h1>How to Play</h1>
                 <p>1. Select difficulty level.</p>
                 <p>2. Guess the word or words used to generate the image.</p>
