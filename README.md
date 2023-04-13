@@ -12,9 +12,7 @@ Peektionary is an interactive image guessing game that utilizes openAI's DallE t
 
 
 ## Screenshot
-![screenshot](./images/peektionary-screenshot.png)
-
-## Code example
+![peektionary-screenshot](https://user-images.githubusercontent.com/94556885/231716066-4cd00efc-ea5b-418d-9144-27e01b6a9931.png)
 
 Difficulty mode selector buttons
 
